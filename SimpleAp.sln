@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp.Wpf", "SimpleApp.Wpf\SimpleApp.Wpf.csproj", "{B990198A-3ECF-447F-BC47-75E704B8C362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareDotGov", "HealthCareDotGov\HealthCareDotGov.csproj", "{5FFF47B5-50D8-42CB-97AB-BAE514C33F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverpricedInsuranceCo", "OverpricedInsuranceCo\OverpricedInsuranceCo.csproj", "{8B00BCE1-0E20-4D24-BECF-8E9EE305C19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D050E4A8-8C43-45B7-B292-5D0D1DEFDC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareDotGov.Web", "HealthCareDotGov.Web\HealthCareDotGov.Web.csproj", "{690753D6-8F31-4290-AE72-8F80555CDE37}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "InsuranceDB", "InsuranceDB\InsuranceDB.sqlproj", "{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B990198A-3ECF-447F-BC47-75E704B8C362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B990198A-3ECF-447F-BC47-75E704B8C362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B990198A-3ECF-447F-BC47-75E704B8C362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B990198A-3ECF-447F-BC47-75E704B8C362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFF47B5-50D8-42CB-97AB-BAE514C33F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFF47B5-50D8-42CB-97AB-BAE514C33F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFF47B5-50D8-42CB-97AB-BAE514C33F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFF47B5-50D8-42CB-97AB-BAE514C33F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B00BCE1-0E20-4D24-BECF-8E9EE305C19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B00BCE1-0E20-4D24-BECF-8E9EE305C19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B00BCE1-0E20-4D24-BECF-8E9EE305C19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B00BCE1-0E20-4D24-BECF-8E9EE305C19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D050E4A8-8C43-45B7-B292-5D0D1DEFDC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D050E4A8-8C43-45B7-B292-5D0D1DEFDC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D050E4A8-8C43-45B7-B292-5D0D1DEFDC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D050E4A8-8C43-45B7-B292-5D0D1DEFDC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690753D6-8F31-4290-AE72-8F80555CDE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690753D6-8F31-4290-AE72-8F80555CDE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690753D6-8F31-4290-AE72-8F80555CDE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690753D6-8F31-4290-AE72-8F80555CDE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621C3E3A-7231-44E3-9C2C-271F27BC7F6A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[PolicyTypes]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [PolicyType] VARCHAR(50) NOT NULL
+)

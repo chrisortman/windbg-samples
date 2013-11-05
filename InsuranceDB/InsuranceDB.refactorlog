@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="277a89db-b61e-4a0c-a857-5f81ac5bcd5c" ChangeDateTime="11/05/2013 19:53:43">
+    <Property Name="ElementName" Value="[dbo].[InsurancePolicies].[AppliesToGender]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[InsurancePolicies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GenderSpecific" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="010613ed-3060-4a71-91a3-5bca05f63f36" ChangeDateTime="11/05/2013 21:39:52">
+    <Property Name="ElementName" Value="[dbo].[InsurancePolicies].[MinimumAge]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[InsurancePolicies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaximumAge" />
+  </Operation>
+</Operations>
