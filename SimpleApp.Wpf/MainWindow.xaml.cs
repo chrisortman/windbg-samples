@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup.Localizer;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -20,6 +21,7 @@ namespace SimpleApp.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private DeadlockService _deadlockService = new DeadlockService();
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +29,10 @@ namespace SimpleApp.Wpf
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            GetTheValue(4000);
+            _deadlockService.TaskExample();
+
+            _deadlockService.ClassicExample();
+
         }
 
         private async Task GetTheValue(int delay)
