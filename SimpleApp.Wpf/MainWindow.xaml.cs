@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,6 +24,8 @@ namespace SimpleApp.Wpf
     public partial class MainWindow : Window
     {
         private DeadlockService _deadlockService = new DeadlockService();
+        private BackgroundWorker _bg;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -51,5 +55,22 @@ namespace SimpleApp.Wpf
             }
                 #endregion
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            _bg = new BackgroundWorker();
+            _bg.DoWork += (o, args) =>
+            {
+                Thread.Sleep(3000);
+                throw new ArgumentOutOfRangeException("Invalid ID must be greater than 0", "ID");
+            };
+
+            _bg.RunWorkerCompleted += (o, args) =>
+            {
+
+            };
+
+        }
+
     }
 }

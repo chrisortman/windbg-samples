@@ -6,6 +6,7 @@
         <Button Content="I Harmlessly get an asynchronous value" HorizontalAlignment="Left" Margin="23,229,0,0" VerticalAlignment="Top" Width="268" Click="Button_Click"/>
         <Label Content="The Value is:" HorizontalAlignment="Left" Margin="45,33,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblTheValue" Content="????" HorizontalAlignment="Left" Margin="135,33,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="I launch a background worker that throws an exception" HorizontalAlignment="Left" Margin="23,272,0,0" VerticalAlignment="Top" Width="328" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
