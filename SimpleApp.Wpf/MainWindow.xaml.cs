@@ -78,17 +78,33 @@ namespace SimpleApp.Wpf
         {
             _family = new List<Person>
             {
-                new Person() { Name = "Chris"},
-                new Person() { Name = "Missy"},
-                new Person() { Name = "Damon"},
-                new Person() { Name = "Mason"},
-                new Person() { Name = "Clara"},
-                new Person() { Name = "Lincoln"},
-                new Person() { Name = "Preston"},
-                new Person() { Name = "Haleigh"},
+                new Person() {Name = "Chris"},
+                new Person() {Name = "Missy"},
+                new Person() {Name = "Damon"},
+                new Person() {Name = "Mason"},
+                new Person() {Name = "Clara"},
+                new Person() {Name = "Lincoln"},
+                new Person() {Name = "Preston"},
+                new Person() {Name = "Haleigh"},
             };
         }
 
+        private async void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            var input = Convert.ToInt32(txtInput.Text);
+            var task = Task.Run(() => fib(input));
+
+            var fibResult = await task;
+            lblTheValue.Content = fibResult;
+        }
+
+        public static int fib(int n)
+        {
+            if (n == 0 || n == 1)
+                return n;
+            else
+                return (fib(n - 1) + fib(n - 2));
+        }
     }
 
     public class Person

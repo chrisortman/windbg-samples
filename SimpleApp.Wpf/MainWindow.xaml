@@ -4,10 +4,13 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button Content="I Harmlessly get an asynchronous value" HorizontalAlignment="Left" Margin="23,229,0,0" VerticalAlignment="Top" Width="268" Click="Button_Click"/>
-        <Label Content="The Value is:" HorizontalAlignment="Left" Margin="45,33,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblTheValue" Content="????" HorizontalAlignment="Left" Margin="135,33,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="The Value is:" HorizontalAlignment="Left" Margin="22,52,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTheValue" Content="????" HorizontalAlignment="Left" Margin="112,52,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="I launch a background worker that throws an exception" HorizontalAlignment="Left" Margin="23,272,0,0" VerticalAlignment="Top" Width="328" Click="Button_Click_1"/>
         <Button Content="Create someting on the heap" HorizontalAlignment="Left" Margin="23,189,0,0" VerticalAlignment="Top" Width="246" Click="Button_Click_2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,25,0,0" TextWrapping="Wrap" Text="Input Argument" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="23" Margin="112,24,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Recursive Fib" HorizontalAlignment="Left" Margin="341,189,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_3"/>
 
     </Grid>
 </Window>
