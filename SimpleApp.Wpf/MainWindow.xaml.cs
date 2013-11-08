@@ -72,5 +72,27 @@ namespace SimpleApp.Wpf
 
         }
 
+        private List<Person> _family;
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            _family = new List<Person>
+            {
+                new Person() { Name = "Chris"},
+                new Person() { Name = "Missy"},
+                new Person() { Name = "Damon"},
+                new Person() { Name = "Mason"},
+                new Person() { Name = "Clara"},
+                new Person() { Name = "Lincoln"},
+                new Person() { Name = "Preston"},
+                new Person() { Name = "Haleigh"},
+            };
+        }
+
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
     }
 }
